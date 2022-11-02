@@ -4,8 +4,8 @@ const router = require('express').Router()
 const products = require('./productos.js')
 //requiero las rutas de products
 
-router.use('/productos', products)
-//defino que las rutas de products contengan "/products"
+router.use('/', products)
+//defino que las rutas de products contengan "/"
 
 module.exports = router
 //exporto para poder usar el enrrutador principal en app.js
