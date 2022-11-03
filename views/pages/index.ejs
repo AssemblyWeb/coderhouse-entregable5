@@ -19,8 +19,13 @@
                 <label for="thumbnail" class="form-label">Foto del producto</label>
                 <input type="text" class="form-control" id="thumbnail" name="thumbnail">
             </div>
+            <!-- submit -->
             <button type="submit" class="btn btn-primary">Cargar producto</button>
         </form>
+        <div class="alert alert-success mt-2" role="alert">
+            El producto <b><%= title %></b> fue cargado exitosamente!
+        </div>
     </div>
-    </div>
-    <%- include ('../components/footer.ejs') -%>
+</div>
+
+<%- include ('../components/footer.ejs') -%>

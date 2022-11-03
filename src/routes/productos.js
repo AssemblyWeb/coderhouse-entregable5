@@ -14,7 +14,7 @@ router.get('/productos', (_, res) => {
 router.post('/productos', async (req, res) => {
     const { title, price, thumbnail } = req.body
     await productosService.addProduct(title, +price, thumbnail)
-    res.render("pages/index.ejs")
+    res.render("pages/index.ejs", { title })
 })
 
 // router.get('/:id', (req, res) => {
