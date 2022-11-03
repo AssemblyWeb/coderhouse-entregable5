@@ -16,9 +16,7 @@ Consigna:
 - Una vista de los productos cargados (utilizando plantillas de handlebars) en la ruta GET '/productos'.
 - Ambas páginas contarán con un botón que redirija a la otra.
 
-2. Manteniendo la misma funcionalidad reemplazar el motor de plantillas handlebars por pug.
 3. Manteniendo la misma funcionalidad reemplazar el motor de plantillas handlebars por ejs.
-4. Por escrito, indicar cuál de los tres motores de plantillas prefieres para tu proyecto y por qué.
 
 > Aspectos a incluir en el entregable:
 
